@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crisis-early-warning-system"
+version = "0.1.0"
+description = "Early warning system AI agent build using langgraph."
+authors = ["Padma"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.0.69"
+langchain = "^0.2.5"
+transformers = "^4.41.2"
+requests = "^2.32.3"
+nemo-toolkit = {extras = ["all"], version = "^1.23.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
